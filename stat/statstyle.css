@@ -1,0 +1,186 @@
+fieldset {
+width: 420px;
+border: 1px solid #dcdcdc;
+border-radius: 10px;
+padding: 20px;
+text-align: right;}
+legend {
+background-color: #efefef;
+border: 1px solid #dcdcdc;
+border-radius: 10px;
+padding: 5px 10px;
+text-align: left;
+text-transform: uppercase;}
+
+input {
+font-size: 100%;
+color: #5a5854;
+background-color: #f2f2f2;
+border: 1px solid #bdbdbd;
+border-radius: 5px;
+padding: 1px 1px 1px 5px;
+background-repeat: no-repeat;
+background-position: 8px 9px;
+display: block;
+margin-bottom: 10px;}
+input:focus {
+background-color: #ffffff;
+border: 1px solid #b1e1e4;}
+
+html
+{
+  background-color:black;
+}
+
+
+body{
+   font-family:sans-serif;
+   font-size:1 em;
+   line-height:1.5 em;
+}
+
+
+
+h1
+{
+   text-transform:uppercase;
+   text-align:center;
+   padding-top:20px;
+   color:#ffd88e;
+}
+
+h2
+{
+color:red;
+text-transform:uppercase;
+}
+
+#main
+{
+  background-color:white;
+  padding:0em 1em 1em;
+  padding-top:10px;
+ margin-left:2.4%;
+margin-right:auto;
+  float:left;
+  width:35%;
+  clear:both;
+}
+#logo
+{
+margin-left:300px;
+margin-right:auto;
+  float:right;
+  width:65%;
+  height:80%;
+  position:absolute;
+  bottom:1%;
+ }
+
+
+
+
+#footer
+{
+   text-align:center;
+   
+   position:fixed;
+   text-align:right;
+   background-color: slategrey;
+   padding:10px;
+   clear:both;
+   font-size:18px;
+   color:white;
+   
+}
+
+#menu
+{
+  list-style-type:none;
+  margin :0;
+  padding:0;
+  overflow:hidden;
+}
+
+#items
+{
+   float:left;
+}
+
+a:link,a:visited
+{
+   display:block;
+   width:120px;
+   font-weight:bold;
+   background-color:black;
+   color:white;
+   text-align:center;
+   padding:4px;
+   text-decoration:none;
+   text-transform:uppercase;
+}
+
+
+a:hover,a:active
+{
+   color:ff5c5c;
+}
+
+
+@keyframes slider{
+
+ 0% {
+   left: 0;
+ }
+
+ 20% {
+   left: 0;
+ }
+ 25% {
+   left: -100%;
+   }
+ 45% {
+   left: -100%;
+   }
+  50% {
+  left: -200%;
+  }
+  70% {
+  left: -200%;
+  }
+  
+  75% {
+  left: -300%;
+  }
+  95% {
+  left: -300%;
+  }
+  
+  100% {
+  left: -400%;
+  }
+  
+  }
+  
+  
+  #slider {
+  overflow:hidden;
+  }
+  
+  #slider figure img{
+   width: 20%;
+   float: left;
+ }
+ 
+  #slider figure {
+  position: relative;
+  width:500%;
+  margin: 30px;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slider infinite;
+  }
+  
+  
+  
